@@ -3,3 +3,4 @@ function App(){
     <div>Darshan</div>
   )
 }
+export default App;
