@@ -1,16 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
+import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Gallery from './ReactWork/Gallery';
+import JSXinMup from './ReactWork/JSXinMup';
+import CurlyBrace from './ReactWork/JSX/CurlyBrace';
+import AddExp from './ReactWork/JSX/AddExp';
+import { Profile } from './ReactWork/Profile';
+// import DynamicRep from './ReactWork/DynamicRep';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div> 
-    <h1>Hello</h1>
-    <App />
-
-
+  <div > 
+    
+    <App/>
+   {/* <Gallery/> */}
+   {/* <JSXinMup/> */}
+    {/* <Profile /> */}
+    {/* <DynamicRep/> */}
+    {/* <CurlyBrace/> */}
+    {/* <AddExp/> */}
   </div>
   
 );
