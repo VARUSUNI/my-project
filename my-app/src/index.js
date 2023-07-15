@@ -7,20 +7,30 @@ import Gallery from './ReactWork/Gallery';
 import JSXinMup from './ReactWork/JSXinMup';
 import CurlyBrace from './ReactWork/JSX/CurlyBrace';
 import AddExp from './ReactWork/JSX/AddExp';
+import One from './Conditional rendering/One'
 import { Profile } from './ReactWork/Profile';
+import Card1 from './Conditional rendering/Card1';
+import Final from './Conditional rendering/Final';
+import Combine from './Conditional rendering/Combine';
+import Data from './Conditional rendering/Data';
+import Data2 from './Conditional rendering/Data2';
+
 // import DynamicRep from './ReactWork/DynamicRep';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div > 
-    
-    <App/>
+    {/* <One /> */}
+    {/* <App/> */}
    {/* <Gallery/> */}
    {/* <JSXinMup/> */}
     {/* <Profile /> */}
     {/* <DynamicRep/> */}
     {/* <CurlyBrace/> */}
     {/* <AddExp/> */}
+    {/* <Card1/> */}
+    {/* <Combine/> */}
+    <Data2/>
   </div>
   
 );
